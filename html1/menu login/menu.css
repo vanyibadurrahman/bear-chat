@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(73, 77, 100);
+    background-image: url(/image/backgraund\ 3.png);
+    background-size: cover;
+    max-width: 2560px;
+
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+    margin-right: 40px;
+
+
+}
+
+/*topbar */
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.midle button {
+    border-radius: 20px;
+    background-color: rgb(73, 77, 100);
+    border-color: #AAA189;
+
+}
+
+.midle button img {
+    width: 30px;
+    height: 30px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    margin-right: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.right button img {
+    width: 30px;
+    height: 30px;
+}
+
+.right button {
+    border-radius: 20px;
+    background-color: rgb(73, 77, 100);
+    border-color: #AAA189;
+}
+
+
+/*menubar*/
+
+.menubar div {
+    width: 800px;
+    height: 440px;
+    background-color: transparent;
+    border: #AAA189;
+    border-style: double;
+
+
+
+
+
+}

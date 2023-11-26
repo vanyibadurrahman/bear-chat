@@ -1,0 +1,33 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    background-color: rgb(73, 77, 100);
+    background-image: url(/image/backgraund\ 3.png);
+    background-size: cover;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+}
+
+.topbar img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.topbar input {
+    margin-top: 0.5rem;
+    width: 15rem;
+}
+
+.topbar button {
+    margin-top: 0.5rem;
+    width: 5rem;
+}
